@@ -1,0 +1,53 @@
+/* General styling */
+body {
+    font-family: sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Heading styles */
+h2 {
+    margin: 10px 0;
+}
+
+/* Button styles */
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #333;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+button:active {
+    background-color: #555;
+    color: #fff;
+    transform: scale(1);
+}
+
+/* Result display styles */
+span {
+    font-weight: bold;
+}
+
+/* Layout styling for the result area */
+#results {
+    margin-top: 20px;
+    text-align: center;
+}
